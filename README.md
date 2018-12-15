@@ -79,6 +79,7 @@
 ```
 该操作会删除creator自带模拟器的热更新缓存
 windows下为:creator\resources\cocos2d-x\simulator\win32\remote-asset
+mac下为：/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents
 ```
 
 #### 第6部分: 日志

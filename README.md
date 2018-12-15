@@ -100,5 +100,5 @@ windows下为:creator\resources\cocos2d-x\simulator\win32\remote-asset
 ## 插件能否支持lua?
 好多小伙伴问我这个问题,其实这个插件仅仅是对项目资源进行了一次md5,并没有引入热更新的逻辑代码,所以这个插件应该是适合所有游戏热更新方案的,因为热更新原理其实就是比对本地和远程的资源是否一致,不一致进行一次同步
 
-## QQ打赏:
+<!--## QQ打赏:-->
 <!--![enter image description here](http://7xq9nm.com1.z0.glb.clouddn.com/qqPay.png)-->

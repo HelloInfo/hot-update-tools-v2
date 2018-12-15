@@ -205,7 +205,7 @@ Editor.Panel.extend({
                 },
 
                 onBtnClickHelpDoc() {
-                    let url = "https://github.com/tidys/CocosCreatorPlugins/blob/master/packages/hot-update-tools/README.md";
+                    let url = "https://github.com/HelloClouds/hot-update-tools-v2/blob/master/README.md";
                     Electron.shell.openExternal(url);
                 },
 

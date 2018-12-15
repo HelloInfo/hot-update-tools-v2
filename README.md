@@ -25,9 +25,6 @@
 7. 这样就在项目资源内存在两个不同版本不同服务器的manifest
 8. 在热更新脚本逻辑中，通过native层获取发布的包名，根据包名判断当前的包是测试服还是正式服，去走对应的热更新逻辑。我目前是根据包名如果后缀带‘debug’字符串的则为测试服。
 
-
-![插件工作原理](../../doc/热更新/desc/热更新工作原理.png)
-
  
 ### 界面一共包含6部分,下边是具体的说明
 #### 第1部分:正式服Manifest配置
@@ -90,6 +87,7 @@ windows下为:creator\resources\cocos2d-x\simulator\win32\remote-asset
 
 #### 最后
 再次感谢原作者，方便了我们使用。更改该工具没有其它意思，都是为了方便自己方便有需要的童鞋，把程序能做的都考虑让程序去做。
+贴上原文https://github.com/tidys/CocosCreatorPlugins/blob/master/packages/hot-update-tools/README.md
 
 突然想起一个事，应该让生成的资源zip包，文件名对应写上是正式服还是测试服，以免混淆。
 
